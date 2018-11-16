@@ -8,6 +8,8 @@ See `(trezor|keepkey|ledger)-agent -h` for details on supported options and the 
 
 If you'd like a Trezor-style PIN entry program, follow [these instructions](README-PINENTRY.md).
 
+On Debian, if you rund gpg.sh (https://github.com/dainnilsson/scripts/blob/master/base-install/gpg.sh) it should configure your envrironment variables properly.  As a bonus, this configuration will also set you up to use YubiKey PIV SSH authentication.
+
 ## 2. Usage
 
 Use the `(trezor|keepkey|ledger)-agent` program to work with SSH. It has three main modes of operation:
