@@ -21,7 +21,7 @@ ssh access to a service that supports it, run:
 (trezor|keepkey|ledger)-agent identity@myhost
 ```
 
-The identity (ex: `identity@myhost`) is used to derive the public key and is added as a comment to the exported key string.
+The identity (ex: `identity@myhost`) is used to derive the public key and is added as a comment to the exported key string.  If you are using RSA keys such as with the YubiKey, RSA keys are IP/DN agnostic and ECDSA keys are not.  So if you produced the public key with identity@IP and then try to connect with 'ssh identity@DN' this will not work.  Also, if you reboot your VM and AWS assigns a new IP to your VM you will need to produce a public key which corresponds to the new IP.
 
 ##### 2. Run a command with the agent's environment
 
