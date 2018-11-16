@@ -13,6 +13,8 @@ You can install them on these distributions as follows:
 ##### Debian
 
     $ apt-get install python3-pip python3-dev python3-tk libusb-1.0-0-dev libudev-dev
+    
+    You will also need to add $HOME/.local/bin to your user path if you run the next step without sudo.
 
 ##### RedHat
 
