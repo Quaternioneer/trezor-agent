@@ -8,7 +8,7 @@ See `(trezor|keepkey|ledger)-agent -h` for details on supported options and the 
 
 If you'd like a Trezor-style PIN entry program, follow [these instructions](README-PINENTRY.md).
 
-On Debian, if you rund gpg.sh (https://github.com/dainnilsson/scripts/blob/master/base-install/gpg.sh) it should configure your envrironment variables properly.  As a bonus, this configuration will also set you up to use YubiKey PIV SSH authentication.
+On Debian, if you run gpg.sh (https://github.com/dainnilsson/scripts/blob/master/base-install/gpg.sh) it should configure your envrironment variables properly.  As a bonus, this configuration will also set you up to use YubiKey PIV SSH authentication.  As noted in 5. Troubleshooting of INSTALL.md, please make sure `~/.local/bin` is on your `PATH`.  This has not been fixed as of bash 4.4.
 
 ## 2. Usage
 
